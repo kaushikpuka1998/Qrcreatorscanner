@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qrcreatorscanner">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <uses-feature android:name="android.hardware.Camera2" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_of_app"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ContactFieldActivity"></activity>
+        <activity android:name=".afterreadyqrActivity" />
+        <activity android:name=".ProductQRActivity" />
+        <activity android:name=".WebQRActivity" />
+        <activity android:name=".EmailQRgenerateActivity" />
+        <activity android:name=".QRgenerationActivity" />
+        <activity android:name=".ScannedResultActivity" />
+        <activity android:name=".genActivity" />
+        <activity android:name=".StartActivity" />
+        <activity android:name=".scActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmailQRgenerateActivity">
+
+    <EditText
+        android:id="@+id/edittextqrgenerator"
+        android:layout_width="match_parent"
+        android:layout_height="900dp"
+        android:ems="10"
+        android:background="@drawable/edittextdesign"
+        android:gravity="start|top"
+
+        android:hint="Enter Email ID"
+        android:inputType="textMultiLine" />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/akashiovalshape"
+        android:visibility="invisible"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="630dp"
+        android:background="@drawable/purpleovalshape"
+        android:clickable="true"
+        android:src="@drawable/ic_right_tick"
+        android:visibility="visible" />
+
+</RelativeLayout>

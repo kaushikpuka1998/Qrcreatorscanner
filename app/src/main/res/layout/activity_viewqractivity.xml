@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewqractivity">
+
+
+    <ImageView
+        android:id="@+id/viewActivityimageview"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="58dp"
+        app:srcCompat="@drawable/akashiovalshape" />
+
+    <TextView
+        android:id="@+id/viewresult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="400dp"
+        android:textSize="14dp"
+        android:fontFamily="@font/nubuntumonob"
+        android:text="TextView" />
+</RelativeLayout>

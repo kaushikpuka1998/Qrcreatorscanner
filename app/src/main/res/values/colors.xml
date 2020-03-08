@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Blue">#0ECC96</color>
+    <color name="Red">#FF0707</color>
+    <color name="Akashi">#00FFFF</color>
+    <color name="Yellow">#D9BC58</color>
+    <color name="Brown">#8DFF5722</color>
+    <color name="DeepYellow">#FF6600</color>
+    <color name="Purple">#D900FF</color>
+</resources>
